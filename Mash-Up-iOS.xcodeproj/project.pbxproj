@@ -13,6 +13,7 @@
 		CE914C6A235347AD00597D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE914C68235347AD00597D7A /* Main.storyboard */; };
 		CE914C6C235347AE00597D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE914C6B235347AE00597D7A /* Assets.xcassets */; };
 		CE914C6F235347AE00597D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE914C6D235347AE00597D7A /* LaunchScreen.storyboard */; };
+		CE914C7723534BE800597D7A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE914C7623534BE800597D7A /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE914C6B235347AE00597D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE914C6E235347AE00597D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE914C70235347AE00597D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE914C7623534BE800597D7A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE914C6B235347AE00597D7A /* Assets.xcassets */,
 				CE914C6D235347AE00597D7A /* LaunchScreen.storyboard */,
 				CE914C70235347AE00597D7A /* Info.plist */,
+				CE914C7623534BE800597D7A /* Colors.xcassets */,
 			);
 			path = "Mash-Up-iOS";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE914C6F235347AE00597D7A /* LaunchScreen.storyboard in Resources */,
+				CE914C7723534BE800597D7A /* Colors.xcassets in Resources */,
 				CE914C6C235347AE00597D7A /* Assets.xcassets in Resources */,
 				CE914C6A235347AD00597D7A /* Main.storyboard in Resources */,
 			);
