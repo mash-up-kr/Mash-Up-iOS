@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE87AA232389B45500F9EF1F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87AA222389B45500F9EF1F /* RoundButton.swift */; };
 		CE914C63235347AD00597D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C62235347AD00597D7A /* AppDelegate.swift */; };
 		CE914C65235347AD00597D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C64235347AD00597D7A /* SceneDelegate.swift */; };
 		CE914C6A235347AD00597D7A /* Notice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE914C68235347AD00597D7A /* Notice.storyboard */; };
@@ -21,11 +22,12 @@
 		CE914C8D235379BE00597D7A /* NoticeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE914C8B235379BE00597D7A /* NoticeTableViewCell.xib */; };
 		CE914C8F23537F3100597D7A /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C8E23537F3100597D7A /* UITableView.swift */; };
 		CE914C9123538CE900597D7A /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE914C9023538CE900597D7A /* SignIn.storyboard */; };
-		CE914C932353915B00597D7A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C922353915B00597D7A /* CircleView.swift */; };
+		CE914C932353915B00597D7A /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C922353915B00597D7A /* RoundView.swift */; };
 		CE914C9B2353A5D100597D7A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C9A2353A5D100597D7A /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE87AA222389B45500F9EF1F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		CE914C5F235347AD00597D7A /* Mash-Up-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mash-Up-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE914C62235347AD00597D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE914C64235347AD00597D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		CE914C8B235379BE00597D7A /* NoticeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeTableViewCell.xib; sourceTree = "<group>"; };
 		CE914C8E23537F3100597D7A /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		CE914C9023538CE900597D7A /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
-		CE914C922353915B00597D7A /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		CE914C922353915B00597D7A /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		CE914C9A2353A5D100597D7A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +91,8 @@
 		CE914C782353547F00597D7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE914C922353915B00597D7A /* CircleView.swift */,
+				CE914C922353915B00597D7A /* RoundView.swift */,
+				CE87AA222389B45500F9EF1F /* RoundButton.swift */,
 				CE914C7A235354E600597D7A /* Cells */,
 				CE914C79235354DF00597D7A /* Controllers */,
 				CE914C7B235354EC00597D7A /* Storyboards */,
@@ -219,10 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE914C932353915B00597D7A /* CircleView.swift in Sources */,
+				CE914C932353915B00597D7A /* RoundView.swift in Sources */,
 				CE914C63235347AD00597D7A /* AppDelegate.swift in Sources */,
 				CE914C85235372B400597D7A /* Storyboard.swift in Sources */,
 				CE914C8C235379BE00597D7A /* NoticeTableViewCell.swift in Sources */,
+				CE87AA232389B45500F9EF1F /* RoundButton.swift in Sources */,
 				CE914C892353747000597D7A /* Nib.swift in Sources */,
 				CE914C87235373C400597D7A /* UIViewController.swift in Sources */,
 				CE914C8F23537F3100597D7A /* UITableView.swift in Sources */,

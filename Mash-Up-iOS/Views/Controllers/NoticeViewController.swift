@@ -18,13 +18,30 @@ final class NoticeViewController: UIViewController {
         }
     }
     
+    @IBOutlet private var backgroundViewHeight: NSLayoutConstraint! {
+        didSet {
+            initialBackgroundViewHeight = backgroundViewHeight.constant
+        }
+    }
+    
+    var initialBackgroundViewHeight: CGFloat?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }
 
 extension NoticeViewController: UITableViewDelegate {
-    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let dy = scrollView.contentOffset.y
+        if dy > 0, let height = initialBackgroundViewHeight {
+            backgroundViewHeight.constant = height - dy
+        }
+    }
 }
 
 extension NoticeViewController: UITableViewDataSource {
