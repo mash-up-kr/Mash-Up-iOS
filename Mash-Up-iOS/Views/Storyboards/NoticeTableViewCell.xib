@@ -285,6 +285,10 @@
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="2Qh-9d-Ot8" id="9Xi-hx-mTM"/>
+                <outlet property="titleLabel" destination="DYi-rC-ukh" id="QKN-he-Q6J"/>
+            </connections>
             <point key="canvasLocation" x="123" y="233"/>
         </tableViewCell>
     </objects>

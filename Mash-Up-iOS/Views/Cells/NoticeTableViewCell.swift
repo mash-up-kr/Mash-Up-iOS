@@ -10,6 +10,9 @@ import UIKit
 
 final class NoticeTableViewCell: UITableViewCell {
 
+    @IBOutlet private var titleLabel: UILabel!
+    @IBOutlet private var authorLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -29,4 +32,8 @@ final class NoticeTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
+    func configure(with notice: Notice) {
+        titleLabel.text = notice.title
+        authorLabel.text = notice.author.name
+    }
 }

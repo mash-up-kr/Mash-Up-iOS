@@ -25,13 +25,26 @@ final class NoticeViewController: UIViewController {
     }
     
     var initialBackgroundViewHeight: CGFloat?
+    var notices: [Notice] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        requestNoticeList()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
+    }
+}
+
+extension NoticeViewController {
+    private func requestNoticeList() {
+        MashUpProvider.noticeList(completion: { [weak self] noticeList in
+            self?.notices = noticeList.results
+            self?.tableView.reloadData()
+        }, failure: { error in
+            print(error.localizedDescription)
+        })
     }
 }
 
@@ -46,13 +59,16 @@ extension NoticeViewController: UITableViewDelegate {
 
 extension NoticeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return notices.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withClass: NoticeTableViewCell.self, for: indexPath) as? NoticeTableViewCell else {
             return UITableViewCell()
         }
+        
+        let notice = notices[indexPath.row]
+        cell.configure(with: notice)
         
         return cell
     }

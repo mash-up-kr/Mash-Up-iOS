@@ -11,7 +11,7 @@
         <!--AllNotice-->
         <scene sceneID="xUN-nB-zAl">
             <objects>
-                <viewController title="AllNotice" id="fc1-fS-ovV" customClass="NoticeViewController" customModule="Mash_Up_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AllNotice" modalPresentationStyle="fullScreen" id="fc1-fS-ovV" customClass="NoticeViewController" customModule="Mash_Up_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HEb-hO-rVr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,16 +72,6 @@
                                         <constraint firstItem="hPQ-wW-D5m" firstAttribute="top" secondItem="oid-RQ-XGs" secondAttribute="top" id="jrx-Rt-2fP"/>
                                     </constraints>
                                 </view>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="zHB-tD-Pxn">
-                                        <rect key="frame" x="0.0" y="143" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zHB-tD-Pxn" id="R2v-qO-aAt">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
