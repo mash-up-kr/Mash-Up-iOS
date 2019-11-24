@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B84460EA238AD0460003F4C3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B84460E9238AD0460003F4C3 /* Moya */; };
 		CE87AA232389B45500F9EF1F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87AA222389B45500F9EF1F /* RoundButton.swift */; };
 		CE914C63235347AD00597D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C62235347AD00597D7A /* AppDelegate.swift */; };
 		CE914C65235347AD00597D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914C64235347AD00597D7A /* SceneDelegate.swift */; };
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84460EA238AD0460003F4C3 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +166,9 @@
 			dependencies = (
 			);
 			name = "Mash-Up-iOS";
+			packageProductDependencies = (
+				B84460E9238AD0460003F4C3 /* Moya */,
+			);
 			productName = "Mash-Up-iOS";
 			productReference = CE914C5F235347AD00597D7A /* Mash-Up-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +197,9 @@
 				Base,
 			);
 			mainGroup = CE914C56235347AD00597D7A;
+			packageReferences = (
+				B84460E8238AD0460003F4C3 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = CE914C60235347AD00597D7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B84460E8238AD0460003F4C3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B84460E9238AD0460003F4C3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B84460E8238AD0460003F4C3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE914C57235347AD00597D7A /* Project object */;
 }
