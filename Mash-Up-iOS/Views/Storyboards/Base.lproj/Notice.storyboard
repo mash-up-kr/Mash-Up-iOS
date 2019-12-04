@@ -92,7 +92,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="전체모임" image="iconMeeting" id="ihi-Lt-F8w"/>
                     <connections>
-                        <outlet property="backgroundViewHeight" destination="1iz-hC-xHb" id="mBU-ae-Fs3"/>
+                        <outlet property="backgroundViewHeight" destination="1iz-hC-xHb" id="1Je-HO-QE8"/>
                         <outlet property="tableView" destination="vYI-WH-u5E" id="jq9-OT-7Hh"/>
                     </connections>
                 </viewController>

@@ -188,7 +188,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfz-GD-774">
-                                                <rect key="frame" x="195" y="458" width="172" height="48"/>
+                                                <rect key="frame" x="219" y="458" width="148" height="24"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
                                                 <state key="normal" title=" 인증 및 회원가입 하기" image="iconJoin">
                                                     <color key="titleColor" name="purpleishBlue"/>
