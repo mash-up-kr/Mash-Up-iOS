@@ -24,5 +24,5 @@ struct Notice: Codable {
     let duration: String
     let address1: String
     let address2: String
-    let descrition: String?
+    let description: String
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B8046E802396C8F700AADCFA /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8046E7F2396C8F700AADCFA /* AuthToken.swift */; };
+		B8046E842397B0D500AADCFA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8046E832397B0D500AADCFA /* String.swift */; };
+		B8046E862397B5A100AADCFA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8046E852397B5A100AADCFA /* Date.swift */; };
 		B84460EA238AD0460003F4C3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B84460E9238AD0460003F4C3 /* Moya */; };
 		B84460ED238AD2950003F4C3 /* MashUpProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84460EC238AD2950003F4C3 /* MashUpProvider.swift */; };
 		B84460EF238AD3250003F4C3 /* MashUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84460EE238AD3250003F4C3 /* MashUpService.swift */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		B8046E7F2396C8F700AADCFA /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		B8046E832397B0D500AADCFA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B8046E852397B5A100AADCFA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B84460EC238AD2950003F4C3 /* MashUpProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashUpProvider.swift; sourceTree = "<group>"; };
 		B84460EE238AD3250003F4C3 /* MashUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashUpService.swift; sourceTree = "<group>"; };
 		B84460F1238AD7E10003F4C3 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				CE914C86235373C400597D7A /* UIViewController.swift */,
 				CE914C882353747000597D7A /* Nib.swift */,
 				CE914C8E23537F3100597D7A /* UITableView.swift */,
+				B8046E832397B0D500AADCFA /* String.swift */,
+				B8046E852397B5A100AADCFA /* Date.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -276,9 +282,11 @@
 				B8046E802396C8F700AADCFA /* AuthToken.swift in Sources */,
 				CE914C892353747000597D7A /* Nib.swift in Sources */,
 				CE914C87235373C400597D7A /* UIViewController.swift in Sources */,
+				B8046E842397B0D500AADCFA /* String.swift in Sources */,
 				CE914C8F23537F3100597D7A /* UITableView.swift in Sources */,
 				CE914C65235347AD00597D7A /* SceneDelegate.swift in Sources */,
 				CE914C9B2353A5D100597D7A /* SignInViewController.swift in Sources */,
+				B8046E862397B5A100AADCFA /* Date.swift in Sources */,
 				B84460EF238AD3250003F4C3 /* MashUpService.swift in Sources */,
 				CE914C822353716100597D7A /* NoticeViewController.swift in Sources */,
 			);

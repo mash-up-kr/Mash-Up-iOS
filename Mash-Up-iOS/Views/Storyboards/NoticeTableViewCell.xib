@@ -10,11 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoticeTableViewCell" rowHeight="379" id="KGk-i7-Jjw" customClass="NoticeTableViewCell" customModule="Mash_Up_iOS" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoticeTableViewCell" rowHeight="433" id="KGk-i7-Jjw" customClass="NoticeTableViewCell" customModule="Mash_Up_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="433"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                <rect key="frame" x="0.0" y="0.0" width="322" height="433"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47b-tG-0HO" userLabel="Badge View" customClass="RoundView" customModule="Mash_Up_iOS" customModuleProvider="target">
@@ -37,7 +37,7 @@
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전체모임 공지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYi-rC-ukh">
-                        <rect key="frame" x="100" y="54" width="120" height="26"/>
+                        <rect key="frame" x="101" y="54" width="120" height="26"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="26" id="eFT-Ab-IuP"/>
                         </constraints>
@@ -46,7 +46,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Lbu-U7-8FZ" userLabel="Writer Stack View">
-                        <rect key="frame" x="139.5" y="88" width="41" height="24"/>
+                        <rect key="frame" x="132" y="88" width="58" height="24"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconWriter" translatesAutoresizingMaskIntoConstraints="NO" id="MiS-2M-Kml">
                                 <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -56,7 +56,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이동글" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qh-9d-Ot8">
-                                <rect key="frame" x="24" y="0.0" width="17" height="24"/>
+                                <rect key="frame" x="24" y="0.0" width="34" height="24"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="13"/>
                                 <color key="textColor" name="dodgeBlue"/>
                                 <nil key="highlightedColor"/>
@@ -67,17 +67,17 @@
                         </constraints>
                     </stackView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTA-ru-uQt" userLabel="Line">
-                        <rect key="frame" x="0.0" y="120" width="320" height="1"/>
+                        <rect key="frame" x="0.0" y="120" width="322" height="1"/>
                         <color key="backgroundColor" name="veryLightPink"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="V70-hN-yv1"/>
                         </constraints>
                     </view>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="OtN-xv-Zra" userLabel="Date and Location Stack View">
-                        <rect key="frame" x="36" y="133" width="248" height="72"/>
+                        <rect key="frame" x="36" y="133" width="250" height="72"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5LT-5I-CYc" userLabel="Date View">
-                                <rect key="frame" x="0.0" y="0.0" width="248" height="24"/>
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="24"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconDate" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-zx-Rju">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -88,7 +88,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019년 1월 26일 (토)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wp-xL-Ggz">
-                                        <rect key="frame" x="28" y="4" width="220" height="16"/>
+                                        <rect key="frame" x="28" y="4" width="222" height="16"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="13"/>
                                         <color key="textColor" name="slateGrey"/>
                                         <nil key="highlightedColor"/>
@@ -106,7 +106,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qxs-St-TUJ" userLabel="Time View">
-                                <rect key="frame" x="0.0" y="24" width="248" height="24"/>
+                                <rect key="frame" x="0.0" y="24" width="250" height="24"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconClock" translatesAutoresizingMaskIntoConstraints="NO" id="SHq-rH-phO">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -117,7 +117,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오후 3시-6시" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAD-ic-TJn">
-                                        <rect key="frame" x="28" y="4" width="220" height="16"/>
+                                        <rect key="frame" x="28" y="4" width="222" height="16"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="13"/>
                                         <color key="textColor" name="slateGrey"/>
                                         <nil key="highlightedColor"/>
@@ -134,7 +134,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0aV-PV-fmE" userLabel="Location View">
-                                <rect key="frame" x="0.0" y="48" width="248" height="24"/>
+                                <rect key="frame" x="0.0" y="48" width="250" height="24"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconPlace" translatesAutoresizingMaskIntoConstraints="NO" id="n6I-AU-ulq">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -144,8 +144,8 @@
                                             <constraint firstAttribute="height" constant="24" id="bX6-fz-W0a"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강남역 8번 출구 하이퍼커넥트 14층" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUd-Qo-5O9">
-                                        <rect key="frame" x="28" y="4" width="220" height="16"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강남역 8번 출구 하이퍼커넥트 14층" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUd-Qo-5O9">
+                                        <rect key="frame" x="28" y="4" width="222" height="16"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="13"/>
                                         <color key="textColor" name="slateGrey"/>
                                         <nil key="highlightedColor"/>
@@ -162,18 +162,21 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="72" id="OI7-Aa-SQx"/>
+                        </constraints>
                     </stackView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-to-SVg" userLabel="Line">
-                        <rect key="frame" x="0.0" y="217" width="320" height="1"/>
+                        <rect key="frame" x="0.0" y="217" width="322" height="1"/>
                         <color key="backgroundColor" name="veryLightPink"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="tgF-ol-43o"/>
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZO-pg-qRE" userLabel="Description Label">
-                        <rect key="frame" x="24" y="230" width="272" height="55"/>
+                        <rect key="frame" x="24" y="230" width="274" height="109"/>
                         <constraints>
-                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="72" id="0mo-ZX-PaM"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="0mo-ZX-PaM"/>
                         </constraints>
                         <string key="text">이번 전체회의에서는 디자인을 잘 하는 방법에 대한 세미나가 있을 예정입니다. 함께 팀활동을 할 예정이니, 노트북을 가져와주시길 바랍니다. 그 후에는 자유롭게 프로젝트팀 회의 시간을 드릴 예정입니다. 오시는 분들 모두 회의 준비도 열시뮈 해서 만나요!!</string>
                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="12"/>
@@ -181,14 +184,14 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAZ-Kp-dov" userLabel="Line">
-                        <rect key="frame" x="0.0" y="297" width="320" height="1"/>
+                        <rect key="frame" x="0.0" y="351" width="322" height="1"/>
                         <color key="backgroundColor" name="veryLightPink"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="S95-Fn-8Pf"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rv-N6-ZNM" userLabel="Vote Description View">
-                        <rect key="frame" x="88.5" y="306" width="143.5" height="24"/>
+                        <rect key="frame" x="94.5" y="360" width="133.5" height="24"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투표 | 00명 참여 중" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DL3-GH-Upm">
                                 <rect key="frame" x="24" y="5" width="93.5" height="14.5"/>
@@ -197,7 +200,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconArrow" translatesAutoresizingMaskIntoConstraints="NO" id="TDy-J9-oNF">
-                                <rect key="frame" x="123.5" y="2" width="20" height="20"/>
+                                <rect key="frame" x="123.5" y="7" width="10" height="10"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconVote" translatesAutoresizingMaskIntoConstraints="NO" id="UrX-Sg-GYb">
                                 <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -211,6 +214,7 @@
                         <constraints>
                             <constraint firstItem="TDy-J9-oNF" firstAttribute="leading" secondItem="DL3-GH-Upm" secondAttribute="trailing" constant="6" id="3m3-uk-qcJ"/>
                             <constraint firstAttribute="trailing" secondItem="TDy-J9-oNF" secondAttribute="trailing" id="4FS-9x-zud"/>
+                            <constraint firstAttribute="height" constant="24" id="9Q1-mA-cB1"/>
                             <constraint firstAttribute="bottom" secondItem="UrX-Sg-GYb" secondAttribute="bottom" id="D0R-hJ-tix"/>
                             <constraint firstItem="UrX-Sg-GYb" firstAttribute="top" secondItem="3rv-N6-ZNM" secondAttribute="top" id="JRf-an-ygI"/>
                             <constraint firstItem="DL3-GH-Upm" firstAttribute="leading" secondItem="UrX-Sg-GYb" secondAttribute="trailing" id="Q6b-SE-jef"/>
@@ -220,24 +224,24 @@
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEI-2f-ma2" userLabel="Line">
-                        <rect key="frame" x="0.0" y="338" width="320" height="1"/>
+                        <rect key="frame" x="0.0" y="392" width="322" height="1"/>
                         <color key="backgroundColor" name="veryLightPink"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="LNP-eg-ZDI"/>
                         </constraints>
                     </view>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LaJ-i7-n71" userLabel="Vote Button Stack View">
-                        <rect key="frame" x="0.0" y="339" width="320" height="40"/>
+                        <rect key="frame" x="0.0" y="393" width="322" height="40"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phY-ya-vgQ">
-                                <rect key="frame" x="0.0" y="6" width="160" height="28"/>
+                                <rect key="frame" x="0.0" y="6" width="161" height="28"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="13"/>
                                 <state key="normal" title="참여할게요!">
                                     <color key="titleColor" name="purpleishBlue"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htc-oY-Fwh">
-                                <rect key="frame" x="160" y="6" width="160" height="28"/>
+                                <rect key="frame" x="161" y="6" width="161" height="28"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="13"/>
                                 <state key="normal" title="불참할게요!">
                                     <color key="titleColor" name="purpleishBlue"/>
@@ -286,10 +290,14 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="addressLabel" destination="OUd-Qo-5O9" id="XGF-QV-Dcb"/>
                 <outlet property="authorLabel" destination="2Qh-9d-Ot8" id="9Xi-hx-mTM"/>
+                <outlet property="dateLabel" destination="0wp-xL-Ggz" id="hEY-Gf-2Xl"/>
+                <outlet property="descriptionLabel" destination="5ZO-pg-qRE" id="jtR-kc-Wza"/>
+                <outlet property="durationLabel" destination="nAD-ic-TJn" id="2ve-N3-our"/>
                 <outlet property="titleLabel" destination="DYi-rC-ukh" id="QKN-he-Q6J"/>
             </connections>
-            <point key="canvasLocation" x="123" y="233"/>
+            <point key="canvasLocation" x="-81.159420289855078" y="161.04910714285714"/>
         </tableViewCell>
     </objects>
     <resources>
