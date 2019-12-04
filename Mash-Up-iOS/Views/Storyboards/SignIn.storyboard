@@ -169,7 +169,7 @@
                                                             <color key="titleColor" name="white"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="pEt-IE-Yuf" kind="show" id="jv4-m3-pBx"/>
+                                                            <action selector="signIn:" destination="P4I-Zm-ovp" eventType="touchUpInside" id="Oix-4O-jOq"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -188,7 +188,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfz-GD-774">
-                                                <rect key="frame" x="195" y="458" width="172" height="48"/>
+                                                <rect key="frame" x="219" y="458" width="148" height="24"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
                                                 <state key="normal" title=" 인증 및 회원가입 하기" image="iconJoin">
                                                     <color key="titleColor" name="purpleishBlue"/>
@@ -242,6 +242,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rgb-yp-N74"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Jlk-YM-2cK" id="6FU-lC-0tm"/>
+                        <outlet property="passwordTextField" destination="v5G-lv-clW" id="AOw-Yy-jgA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvP-z9-ROL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -777,16 +781,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ld4-gb-otF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1098.5507246376812" y="93.75"/>
-        </scene>
-        <!--Notice-->
-        <scene sceneID="CNV-z0-xhz">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Notice" id="pEt-IE-Yuf" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="dzF-gv-s7F"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mmb-On-BcZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="699" y="548"/>
         </scene>
     </scenes>
     <resources>

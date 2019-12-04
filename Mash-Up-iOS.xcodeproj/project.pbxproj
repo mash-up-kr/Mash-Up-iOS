@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8046E802396C8F700AADCFA /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8046E7F2396C8F700AADCFA /* AuthToken.swift */; };
 		B84460EA238AD0460003F4C3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B84460E9238AD0460003F4C3 /* Moya */; };
 		B84460ED238AD2950003F4C3 /* MashUpProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84460EC238AD2950003F4C3 /* MashUpProvider.swift */; };
 		B84460EF238AD3250003F4C3 /* MashUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84460EE238AD3250003F4C3 /* MashUpService.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8046E7F2396C8F700AADCFA /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
 		B84460EC238AD2950003F4C3 /* MashUpProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashUpProvider.swift; sourceTree = "<group>"; };
 		B84460EE238AD3250003F4C3 /* MashUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashUpService.swift; sourceTree = "<group>"; };
 		B84460F1238AD7E10003F4C3 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				B84460F1238AD7E10003F4C3 /* Notice.swift */,
 				B84460F3238ADFDF0003F4C3 /* Team.swift */,
 				B84460F5238ADFFA0003F4C3 /* User.swift */,
+				B8046E7F2396C8F700AADCFA /* AuthToken.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				CE914C8C235379BE00597D7A /* NoticeTableViewCell.swift in Sources */,
 				B84460ED238AD2950003F4C3 /* MashUpProvider.swift in Sources */,
 				CE87AA232389B45500F9EF1F /* RoundButton.swift in Sources */,
+				B8046E802396C8F700AADCFA /* AuthToken.swift in Sources */,
 				CE914C892353747000597D7A /* Nib.swift in Sources */,
 				CE914C87235373C400597D7A /* UIViewController.swift in Sources */,
 				CE914C8F23537F3100597D7A /* UITableView.swift in Sources */,

@@ -13,6 +13,12 @@ import Result
 final class MashUpProvider {
     private static let provider = MoyaProvider<MashUpService>()
     
+    static func authToken(email: String, password: String, completion: @escaping (AuthToken) -> Void, failure: @escaping (Error) -> Void) {
+        provider.request(.authToken(email: email, password: password)) { result in
+            self.resultTask(result, completion: completion, failure: failure)
+        }
+    }
+    
     static func noticeList(completion: @escaping (NoticeList) -> Void, failure: @escaping (Error) -> Void) {
         provider.request(.noticeList) { result in
             self.resultTask(result, completion: completion, failure: failure)

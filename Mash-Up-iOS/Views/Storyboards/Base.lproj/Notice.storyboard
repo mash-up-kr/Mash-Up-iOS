@@ -11,7 +11,7 @@
         <!--AllNotice-->
         <scene sceneID="xUN-nB-zAl">
             <objects>
-                <viewController title="AllNotice" modalPresentationStyle="fullScreen" id="fc1-fS-ovV" customClass="NoticeViewController" customModule="Mash_Up_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoticeViewController" title="AllNotice" modalPresentationStyle="fullScreen" id="fc1-fS-ovV" customClass="NoticeViewController" customModule="Mash_Up_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HEb-hO-rVr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
